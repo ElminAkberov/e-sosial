@@ -1,0 +1,11 @@
+.container {
+    background: linear-gradient(100.04deg, #fafcff -26.23%, #f9fbff 81.52%);
+    padding: 54px 32px 41px 54px;
+    margin: 120px 0;
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    padding: 32px;
+    margin: 120px 0;
+  }
+}
