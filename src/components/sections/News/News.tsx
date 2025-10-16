@@ -108,7 +108,7 @@ const News = () => {
                         disabled={
                             activeIndex >=
                             newsData.length -
-                                (swiperInstance?.params?.slidesPerView || 1)
+                                +(swiperInstance?.params?.slidesPerView || 1)
                         }
                         className="w-[48px] h-[48px] min-w-[48px] text-[#1B3E77] border border-[#1b3e77] bg-white rounded-full flex items-center justify-center hover:bg-[#1B3E77] hover:text-white transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                     >
